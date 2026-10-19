@@ -1,0 +1,9 @@
+{
+  "presets": [
+    { "name": "A4=440 Equal (reference)", "a4": 440.0, "note": "Baseline for comparison; not a maqam tuning" },
+    { "name": "Turkish Arel-Ezgi-Uzdilek (53-TET approx)", "a4": 440.0, "note": "Holdrian koma ~22.64c; values in cents are 53-TET approximations" },
+    { "name": "Arabic 24-TET (quarter-tone approx)", "a4": 440.0, "note": "Quarter-tone 50c theoretical; real intonation 30-60c flat" },
+    { "name": "Persian Koron/Sori (~50c)", "a4": 440.0, "note": "Koron -50c, Sori +50c - performer variable, tune by ear" }
+  ],
+  "compatibility_note": "Standard Auto-Tune/Waves Tune key/scale selectors do NOT implement these cents. Use manual per-note offset or microtuning-capable plug-in/host. The analyzer does NOT control third-party Auto-Tune directly."
+}

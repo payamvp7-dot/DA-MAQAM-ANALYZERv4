@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- D.A Production - Oud silhouette placeholder -->
+<!-- Licensed placeholder: faithful vector silhouette, not claimed as photograph -->
+<!-- If a licensed photograph becomes available, replace this file with the authorized asset -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C2A878" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#8C6B3A" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+  <!-- Oud body: pear-shaped -->
+  <path d="M150 120 C 95 130, 38 195, 42 295 C 44 350, 78 400, 150 430 C 222 400, 256 350, 258 295 C 262 195, 205 130, 150 120 Z"
+        fill="none" stroke="url(#g)" stroke-width="3.2" stroke-linejoin="round"/>
+  <!-- inner decorative rosette hint -->
+  <circle cx="150" cy="270" r="46" fill="none" stroke="#C2A878" stroke-opacity="0.22" stroke-width="1.2"/>
+  <circle cx="150" cy="270" r="32" fill="none" stroke="#C2A878" stroke-opacity="0.14" stroke-width="0.9"/>
+  <!-- soundboard seam -->
+  <path d="M150 135 L 150 415" stroke="#C2A878" stroke-opacity="0.18" stroke-width="1"/>
+  <!-- neck -->
+  <path d="M138 120 L 128 52 L 172 52 L 162 120 Z" fill="none" stroke="#C2A878" stroke-opacity="0.9" stroke-width="2.2"/>
+  <!-- pegbox -->
+  <path d="M130 52 L 124 12 L 176 12 L 170 52 Z" fill="none" stroke="#C2A878" stroke-opacity="0.85" stroke-width="1.8"/>
+  <!-- pegs -->
+  <circle cx="128" cy="28" r="4" fill="#C2A878" opacity="0.9"/>
+  <circle cx="172" cy="28" r="4" fill="#C2A878" opacity="0.9"/>
+  <circle cx="126" cy="42" r="4" fill="#C2A878" opacity="0.9"/>
+  <circle cx="174" cy="42" r="4" fill="#C2A878" opacity="0.9"/>
+  <!-- strings -->
+  <line x1="142" y1="15" x2="148" y2="420" stroke="#E8E6E1" stroke-opacity="0.22" stroke-width="0.9"/>
+  <line x1="150" y1="15" x2="150" y2="420" stroke="#E8E6E1" stroke-opacity="0.22" stroke-width="0.9"/>
+  <line x1="158" y1="15" x2="152" y2="420" stroke="#E8E6E1" stroke-opacity="0.22" stroke-width="0.9"/>
+  <!-- label -->
+  <text x="150" y="472" text-anchor="middle" font-family="serif" font-size="10" fill="#C2A878" opacity="0.55" letter-spacing="2">O U D  •  PLACEHOLDER SILHOUETTE</text>
+  <text x="150" y="486" text-anchor="middle" font-family="sans-serif" font-size="7.5" fill="#9AA0B0" opacity="0.7">Licensed photograph not included — vector silhouette used</text>
+  <text x="150" y="495" text-anchor="middle" font-family="sans-serif" font-size="6.5" fill="#9AA0B0" opacity="0.55">Replace with authorized asset if available</text>
+</svg>

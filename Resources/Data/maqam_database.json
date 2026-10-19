@@ -1,0 +1,12 @@
+{
+  "_comment": "D.A Maqam Analyzer - Maqam database JSON mirror for documentation/export. Real authoritative source is C++ curated entries in MaqamDatabase.cpp. This JSON is for tooling and is not loaded at runtime unless explicitly requested.",
+  "version": "1.0.0",
+  "provenance": "Curated from Boroumand radif, Farhat 2004, During, Marcus 'Music in Egypt' 2007, Signell 'Makam' 1977, Arel-Ezgi-Uzdilek theory, Mammadov 2013, Farraj & Shumays, UNESCO Mugham docs. Intervals are theoretical references - real performance intonation varies. See C++ source for per-entry citations and verification status.",
+  "families": {
+    "Persian": ["Shur (Dastgah) with avaz Abu Ata, Bayat-e Tork, Afshari, Dashti", "Mahur", "Homayun + Avaz Bayat-e Esfahan", "Segah", "Chahargah", "Nava", "Rast-Panjgah"],
+    "Azerbaijani": ["Rast", "Shur", "Segah", "Chahargah", "Bayati-Shiraz", "Shushtar", "Humayun"],
+    "Turkish": ["Rast", "Ussak", "Huseyni", "Hicaz", "Nihavend", "Kurdi", "Segah", "Saba", "Huzzam", "Buselik"],
+    "Arabic": ["Rast", "Bayati", "Hijaz", "Nahawand", "Kurd", "Ajam", "Saba", "Sikah"]
+  },
+  "note": "All entries are tradition-specific and not interchangeable. Turkish 53-TET koma system (~22c per koma) approximated in cents; Arabic 24-TET quarter-tone is theoretical ~50c approx; Persian koron ~ -50c and sori ~ +50c are performer-variable. Do not reduce to fixed 12-TET."
+}
